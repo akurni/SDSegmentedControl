@@ -1023,8 +1023,10 @@ const CGFloat kSDSegmentedControlScrollOffset = 20;
         }
         else
         {
-            self.titleFont = [UIFont systemFontOfSize:14];
-            self.selectedTitleFont = [UIFont boldSystemFontOfSize:14];
+            //            self.titleFont = [UIFont systemFontOfSize:14];
+            //            self.selectedTitleFont = [UIFont boldSystemFontOfSize:14];
+            self.titleFont = [UIFont fontWithName:@"GothamBold" size:10.0f];
+            self.selectedTitleFont = [UIFont fontWithName:@"GothamBold" size:10.0f];
         }
 
         self.userInteractionEnabled = YES;
